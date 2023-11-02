@@ -1,0 +1,108 @@
+body{
+
+    background-color: black;
+    color: white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 30px;
+    color:  lightseagreen;
+
+}
+.container-box{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: black; */
+    box-shadow: 3px 3px 30px lightseagreen;
+   
+    height: 300px;
+    
+}
+.buttons{
+    display: flex;
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.buttons button{
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid lightblue;
+    box-shadow: 3px 3px 30px lightseagreen;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+}
+.buttons button:hover{
+    background-color: black;
+    
+    border: 1px solid red;
+    color: red;
+}
+.container{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: black; */
+    
+}
+.card{
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 3px 3px 30px lightseagreen;
+    
+}
+.time{
+    font-size: 40px;
+    margin: 0;
+}
+.units{
+    font-size: 15px;
+    margin: 0;
+
+}
+
+.blinker{
+    height: 100px;
+    /* border: 1px solid blueviolet; */
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    visibility: visible;
+
+}
+.d-none{
+    visibility: hidden;
+}
+/* .seconds{
+    color: brown;
+}
+.minutes{
+    color: aqua;
+}
+.hours{
+    color: blue;
+} */
